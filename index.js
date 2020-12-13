@@ -1,6 +1,6 @@
 let { Client } = require('discord.js')
 let Cleverbot = require('cleverbot-node')
-let sq = require('sqlite3')
+// let sq = require('sqlite3')
 let { EventEmitter } = require('events')
 require('dotenv').config()
 
@@ -13,7 +13,7 @@ let skye = new Client()
 let ready = new EventEmitter()
 let cleverbot = new Cleverbot;
 
-const db = new sq.Database('./db.sqlite3').th
+// const db = new sq.Database('./db.sqlite3').th
 cleverbot.configure({botapi: process.env.CLEVERBOT_API});
 
 

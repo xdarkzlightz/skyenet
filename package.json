@@ -1,0 +1,26 @@
+{
+  "name": "skyenet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cleverbot-node": "^0.3.11",
+    "dotenv": "^8.2.0",
+    "discord.js": "^12.5.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdarkzlightz/skyenet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdarkzlightz/skyenet/issues"
+  },
+  "homepage": "https://github.com/xdarkzlightz/skyenet#readme"
+}
